@@ -1,0 +1,76 @@
+body {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 15px;
+    height: 20px;
+    width: 280px;    
+}
+
+.login-title {
+    /* margin-top: 50px; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+button {
+    background-color: burlywood;
+    height: 120px;
+    width: 80px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.login-contaner {
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.join-box {
+    display: flex;
+    width: 400px;
+}
+
+
+
+/* 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>연습</title>
+    <link rel="stylesheet" href="02_test03.css">
+</head>
+<body>
+    <div class = "login-contaner">
+        <input type="text" id = "userid">
+        <input type="password" id = "userpw">
+        <button id = "login-btn">로그인</button>
+    </div>
+</body>
+     
+</body>
+</html> */
