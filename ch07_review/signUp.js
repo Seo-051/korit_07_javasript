@@ -11,8 +11,9 @@ function signUp() {
     const user = { id : idInput, pw: pwIntput };
 
     users.push(user);
-    alert(`${idInput}님 회원가입 하셨습니다.`);
+    alert(`“회원가입 성공! 로그인 페이지로 이동합니다.`);
     localStorage.setItem("users", JSON.stringify(users));
+    window.location.replace("./signIn.html");
 }
 
 signUpBtn.addEventListener('click', signUp);

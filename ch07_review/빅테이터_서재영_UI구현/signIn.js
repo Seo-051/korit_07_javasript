@@ -11,11 +11,12 @@ function login(){
     const foundUser = users.find(user => user.id === idInput && user.pw === pwInput);
 
     if (foundUser) {
-        alert(`${idInput}님 로그인 하셨습니다.`);
+        alert("로그인 성공");
     } else {
-        alert("아이디 또는 비밀번호가 틀렸습니다.");
+        alert("로그인 실패");
     }
     return;
+    
 }
 
 loginBtn.addEventListener('click', login);

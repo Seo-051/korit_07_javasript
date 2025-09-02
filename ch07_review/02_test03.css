@@ -9,10 +9,11 @@ body {
 input {
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: bla;
+    
     padding: 15px;
     height: 20px;
-    width: 280px;    
+    width: 280px;
 }
 
 .login-title {
@@ -25,8 +26,8 @@ input {
 
 button {
     background-color: burlywood;
-    height: 120px;
-    width: 80px;
+    height: 50px;
+    width: 320px;
     margin-left: 10px;
     font-weight: bold;
 }
