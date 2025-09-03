@@ -24,5 +24,5 @@ function signIn() {
   localStorage.setItem("users", JSON.stringify(users));
 
   alert(userName + "님, 회원가입 완료!");
-  // TODO: 로그인 화면으로 돌아가는 코드나 초기화 함수 호출
+  window.location.replace("./index.html"); // index.html == main.html 과 같음 index가 처음 방문한 페이지
 }
