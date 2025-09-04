@@ -30,9 +30,7 @@ function login() {
       alert("아이디 또는 비밀번호가 틀렸습니다.");
   }
 
-  localStorage.setItem("users", JSON.stringify(users));
-
-  
+  localStorage.setItem("users", JSON.stringify(users)); 
 }
 
 
